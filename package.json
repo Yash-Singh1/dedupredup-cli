@@ -1,0 +1,35 @@
+{
+  "name": "dedupredup-cli",
+  "version": "1.0.6",
+  "description": "CLI for node-dedupredup",
+  "bin": {
+    "dedup": "./dedup.js",
+    "redup": "./redup.js"
+  },
+  "keywords": [
+    "dedup",
+    "redup",
+    "duplicate",
+    "file",
+    "cli"
+  ],
+  "author": "Yash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^9.0.0",
+    "node-dedupredup": "^1.0.1",
+    "update-notifier": "^5.1.0"
+  },
+  "man": [
+    "dedup.1",
+    "redup.1"
+  ],
+  "homepage": "https://github.com/Yash-Singh1/dedupredup-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Yash-Singh1/dedupredup-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yash-Singh1/dedupredup-cli"
+  }
+}
