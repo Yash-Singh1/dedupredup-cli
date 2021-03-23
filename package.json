@@ -1,6 +1,6 @@
 {
   "name": "dedupredup-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "CLI for node-dedupredup",
   "bin": {
     "dedup": "./dedup.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "meow": "^9.0.0",
-    "node-dedupredup": "^1.0.1",
+    "node-dedupredup": "^1.2.0",
     "update-notifier": "^5.1.0"
   },
   "man": [
